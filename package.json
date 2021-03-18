@@ -1,0 +1,19 @@
+{
+  "name": "entity-modal",
+  "version": "1.0.0",
+  "description": "Modal for generating PDF legal agreements, signing them, and stashing them on distributed ledger; intended for entity formation but applicable for other agreements.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Etherize/entity-modal.git"
+  },
+  "author": "Pradhumna Pancholi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Etherize/entity-modal/issues"
+  },
+  "homepage": "https://github.com/Etherize/entity-modal#readme"
+}
