@@ -1,0 +1,46 @@
+.entity-modal{
+    display: block;
+    height: 400px;
+    width: 345px;
+    border: 1px solid grey;
+    position: absolute;
+    top: 95px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 4px 5px  grey;
+
+    article{
+        border: 1px solid black;
+        width: 300px;
+        height: 100px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 45px;
+        margin-bottom: 15px;
+        display: flex;
+        align-items: center;
+    }
+
+    // form{
+    //     display: block;
+    // }
+
+    input{
+        margin-top: 10px;
+    }
+
+    button{
+        width: 180px;
+        height: 35px;
+        margin-top: 20px;
+        background-color: green;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+}

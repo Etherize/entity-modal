@@ -4,7 +4,9 @@
   "description": "Modal for generating PDF legal agreements, signing them, and stashing them on distributed ledger; intended for entity formation but applicable for other agreements.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack-dev-server --open"
   },
   "repository": {
     "type": "git",
@@ -26,8 +28,8 @@
     "style-loader": "^2.0.0",
     "uglifyjs-webpack-plugin": "^1.1.2",
     "webpack": "^4.44.1",
-    "webpack-cli": "^4.3.1",
-    "webpack-dev-server": "^3.11.1"
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.1.14"
   },
   "bugs": {
     "url": "https://github.com/Etherize/entity-modal/issues"
