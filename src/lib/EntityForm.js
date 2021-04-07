@@ -8,7 +8,13 @@ template.innerHTML = `
 <style>${styles.toString()}</style>
 <div class='entity-modal'>
     <p>Form Entity</p>
+    <article>
+        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
+    </article>
     <form>
+        <input type='text' for='email' placeholder='E-mail'></input>
+        <input type='text' for='name' placeholder='Name'></input>
+        <button>Continue</button>
     </form
 </dv>
 `
