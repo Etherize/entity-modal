@@ -20,6 +20,5 @@ function renderEntityModal() {
     customElements.define('number-modal', NumberModal)
 
     //render entity modal//
-    plugin.innerHTML = `<number-modal />`
-    //plugin.innerHTML = `<form-modal />`
+    plugin.innerHTML = `<form-modal />`
 }

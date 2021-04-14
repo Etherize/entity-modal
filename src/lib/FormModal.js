@@ -22,11 +22,22 @@ template.innerHTML = `
 export class FormModal extends HTMLElement{
     constructor(){
         super()
-
         //add shadow DOM//
         const shadowDOM = this.attachShadow({mode: 'open'})
-
         shadowDOM.appendChild(template.content.cloneNode(true))
+        //method binding//
+        this.continue = this.continue.bind(this)
+    }
+
+    connectedCallback() {
+        // get continue button//
+        const continueBtn = this.shadowRoot.querySelector('form button')
+        continueBtn.onclick = this.continue
+    }
+
+    continue(){
+        const plugin = document.getElementById('entity-modal-plugin')
+        plugin.innerHTML = `<number-modal />`
     }
 }
 
