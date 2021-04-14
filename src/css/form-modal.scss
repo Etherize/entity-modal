@@ -13,6 +13,10 @@
     border-radius: 15px;
     box-shadow: 4px 5px  grey;
 
+    header{
+        margin-top: 20px;
+    }
+
     article{
         border: 1px solid black;
         width: 300px;
@@ -25,17 +29,13 @@
         align-items: center;
     }
 
-    // form{
-    //     display: block;
-    // }
-
     input{
         margin-top: 10px;
     }
 
     button{
         width: 180px;
-        height: 35px;
+        height: 40px;
         margin-top: 20px;
         background-color: green;
         color: white;

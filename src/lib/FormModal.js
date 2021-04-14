@@ -7,7 +7,7 @@ const template = document.createElement('template')
 template.innerHTML = `
 <style>${styles.toString()}</style>
 <div class='form-modal'>
-    <p>Form Entity</p>
+    <header>Form Entity</header>
     <article>
         It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
     </article>
@@ -15,7 +15,7 @@ template.innerHTML = `
         <input type='text' for='email' placeholder='E-mail'></input>
         <input type='text' for='name' placeholder='Name'></input>
         <button>Continue</button>
-    </form
+    </form>
 </dv>
 `
 

@@ -1,4 +1,4 @@
-.entity-modal{
+.number-modal{
     display: block;
     height: 400px;
     width: 345px;
@@ -13,29 +13,35 @@
     border-radius: 15px;
     box-shadow: 4px 5px  grey;
 
+    header{
+        margin-top: 20px;
+    }
+
+    section{
+        margin-top: 30px;
+    }
+
     article{
         border: 1px solid black;
         width: 300px;
         height: 100px;
         margin-right: auto;
         margin-left: auto;
-        margin-top: 45px;
+        margin-top: 25px;
         margin-bottom: 15px;
         display: flex;
         align-items: center;
     }
-    input{
-        margin-top: 10px;
-    }
 
-    button{
+    & > button{
         width: 180px;
-        height: 35px;
+        height: 60px;
         margin-top: 20px;
         background-color: green;
         color: white;
         border: none;
         border-radius: 5px;
         font-size: 16px;
+        white-space: normal;
     }
 }
