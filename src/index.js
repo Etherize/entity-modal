@@ -1,4 +1,4 @@
-import {EntityForm} from './lib/EntityForm'
+import {FormModal} from './lib/FormModal'
 
 // element on client-site to target to render this widget//
 const plugin = document.getElementById('entity-modal-plugin')
@@ -15,8 +15,8 @@ pluginBtn.onclick = renderEntityModal
 
 function renderEntityModal() {
     //define both custom elements//
-    customElements.define('entity-form', EntityForm)
+    customElements.define('form-modal', FormModal)
 
     //render entity modal//
-    plugin.innerHTML = `<entity-form></entity-form>`
+    plugin.innerHTML = `<form-modal></form-modal>`
 }

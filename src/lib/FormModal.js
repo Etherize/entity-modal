@@ -1,4 +1,4 @@
-import styles from '../css/entity-form.scss'
+import styles from '../css/form-modal.scss'
 
 // this generates "template" for form//
 const template = document.createElement('template')
@@ -19,7 +19,7 @@ template.innerHTML = `
 </dv>
 `
 
-export class EntityForm extends HTMLElement{
+export class FormModal extends HTMLElement{
     constructor(){
         super()
 
