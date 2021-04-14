@@ -6,7 +6,7 @@ const template = document.createElement('template')
 //content for template//
 template.innerHTML = `
 <style>${styles.toString()}</style>
-<div class='entity-modal'>
+<div class='form-modal'>
     <p>Form Entity</p>
     <article>
         It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
