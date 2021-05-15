@@ -1,4 +1,4 @@
-import styles from '../css/form-modal.scss'
+import styles from '../css/entity-modal.scss'
 
 // this generates "template" for form//
 const template = document.createElement('template')
@@ -9,7 +9,7 @@ template.innerHTML = `
 <div class='form-modal'>
     <header>Form Entity</header>
     <article>
-        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
+        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
     </article>
     <form>
         <input type='text' for='email' placeholder='E-mail'></input>
@@ -40,4 +40,3 @@ export class FormModal extends HTMLElement{
         plugin.innerHTML = `<number-modal />`
     }
 }
-

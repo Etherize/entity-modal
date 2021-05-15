@@ -1,4 +1,4 @@
-import styles from '../css/number-modal.scss'
+import styles from '../css/entity-modal.scss'
 
 const template = document.createElement('template')
 
@@ -13,7 +13,7 @@ template.innerHTML = `
     </section>
 
     <article>
-        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
+        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
     </article>
 
     <button type='submit'>Proceed <br />[Review agreement]</button>
