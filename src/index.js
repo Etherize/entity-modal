@@ -38,9 +38,10 @@ Save Values
 `
 
 plugin.appendChild(saveBtn)
-saveBtn.onclick = save()
-function save() {
+saveBtn.onclick = save
+function save(foo, bar) {
     //TODO: Nick - Save some made up data to a simple database running on AWS
+          console.log("Save Data triggered: " + foo + bar)
 }
 
 const loadBtn = document.createElement('button')
@@ -49,7 +50,18 @@ Load Values
 `
 
 plugin.appendChild(loadBtn)
-loadBtn.onclick = load()
+loadBtn.onclick = load
 function load() {
-    //TODO: Nick - Load some data from the DB
+      console.log("Load Data triggered")
+  }
+
+  const docBtn = document.createElement('button')
+  docBtn.innerHTML = `
+  Create PDF
+  `
+
+  plugin.appendChild(docBtn)
+  docBtn.onclick = generateDoc
+  function generateDoc() {
+      console.log("Generate Document triggered")
   }
