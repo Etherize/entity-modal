@@ -13,37 +13,44 @@
     border-radius: 15px;
     box-shadow: 4px 5px  grey;
 
-    header{
-        margin-top: 20px;
-    }
 
-    article{
-        border: 1px solid black;
-        width: 300px;
-        height: 100px;
-        margin-right: auto;
-        margin-left: auto;
-        margin-top: 45px;
-        margin-bottom: 15px;
-        display: flex;
-        align-items: center;
-    }
-
-    input{
-        margin-top: 10px;
-    }
-
-    button{
-        width: 180px;
-        height: 40px;
-        margin-top: 20px;
-        background-color: green;
-        color: white;
-        border: none;
-        border-radius: 5px;
-        font-size: 16px;
-    }
 }
+
+header{
+    margin-top: 20px;
+    font-family: 'Nova Flat', cursive;
+}
+
+article{
+    border: 1px solid black;
+    width: 300px;
+    height: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 45px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+input{
+    margin-top: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+button{
+    width: 180px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Nova Flat', cursive;
+}
+
 
 .number-modal{
     display: block;
@@ -78,6 +85,7 @@
         margin-bottom: 15px;
         display: flex;
         align-items: center;
+        font-family: 'Josefin Sans', sans-serif;
     }
 
     & > button{

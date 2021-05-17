@@ -16,7 +16,7 @@ template.innerHTML = `
         <input type='text' for='name' placeholder='Name'></input>
         <button>Continue</button>
     </form>
-</dv>
+</div>
 `
 
 export class FormModal extends HTMLElement{
